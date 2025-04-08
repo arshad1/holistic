@@ -1,11 +1,3 @@
-// Interface for a group's data
-export interface GroupData {
-  id: string;
-  name: string;
-  rows: string[][];
-  parentId?: string; // Optional parent group ID for hierarchical grouping
-}
-
 // Shared style constants
 export const nestingLabelStyle = {
   writingMode: "vertical-lr" as const,
